@@ -9,5 +9,6 @@
 let count = 0
 
 function increment() {
-    console.log("Btn was clicked")
+    count += 1
+    document.getElementById("count-el").innerText = count
 }
