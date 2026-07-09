@@ -1,29 +1,13 @@
-// document.getElementById("count-el").innerText = 5
+// Add event listener
 
-// let count = 0
+// init the count as 0
+// listen for clicks on the increment-btn
+// increment count when clicked
+// update count-el in the HTML to show updated count value
 
-// console.log(count)
 
-// console.log(myAge)
+let count = 0
 
-// let myAge = 22
-
-// console.log(myAge)
-
-// let myAge = 9 
-
-// let humanDogRatio = 7
-
-// myDogAge = myAge * humanDogRatio
-
-// console.log(myDogAge)
-
-let bonusPoints = 50
-
-bonusPoints = bonusPoints + 50
-
-bonusPoints = bonusPoints - 75
-
-bonusPoints = bonusPoints + 45
-
-console.log(bonusPoints)
+function increment() {
+    console.log("Btn was clicked")
+}
