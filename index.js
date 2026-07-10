@@ -16,3 +16,7 @@ function increment() {
 
 // Working with the DOM is knowon as the Document Object Model, aka how to use
 // js to modify a website.
+
+function save() {
+    console.log(count)
+}
