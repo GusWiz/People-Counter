@@ -11,7 +11,7 @@ countEl = document.getElementById("count-el")
 
 function increment() {
     count += 1
-    countEl.innerText = count
+    countEl.textContent = count
 }
 
 // Working with the DOM is knowon as the Document Object Model, aka how to use
@@ -22,4 +22,6 @@ saveEl = document.getElementById("save-el")
 function save() {
     console.log(count)
     saveEl.textContent += count + " - "
+    count = 0
+    countEl.textContent = 0
 }
