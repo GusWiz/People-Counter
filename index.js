@@ -1,8 +1,17 @@
-let firstName = "Gus"
-let greeting = "Hi there"
+let myPoints = 3 
 
-function greet() {
-    console.log(greeting + ", " + firstName + "!" )
+function add3Points() {
+    myPoints += 3
 }
 
-greet()
+function remove1Point() {
+    myPoints -= 1
+}
+
+add3Points()
+remove1Point()
+add3Points()
+add3Points()
+remove1Point()
+
+console.log(myPoints)
