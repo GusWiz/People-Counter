@@ -21,5 +21,5 @@ saveEl = document.getElementById("save-el")
 
 function save() {
     console.log(count)
-    saveEl.innerText += " " + count + " -"
+    saveEl.textContent += count + " - "
 }
